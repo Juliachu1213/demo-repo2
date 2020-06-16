@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>07170206</title>
+    <!-- Google Analytics -->
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-160161121-1', 'auto'); 
+ga('send', 'pageview');
+</script><!-- End Google Analytics -->
+  </head>
+  <body>
+    <script async="" src="https://cse.google.com/cse.js?cx=003938767606820573526:1aaxlwu4tn2"></script>
+    <div class="gcse-searchbox-only"></div>
+    <p>朱筑筠 07170206 </p>
+    <p> <a href="http://line.naver.jp/R/msg/text/?%E6%88%91%E7%9A%84%E9%A0%81%E9%9D%A2+http://myweb.scu.edu.tw/%7E07170206/07170206.html"
+        onclick="ga('send','event','來自促銷頁面的line','轉傳','for春季限定','756');"><img
+          src="http://media.line.me/img/button/ja/82x20.png"><br>
+      </a></p>
+    <a href="http://myweb.scu.edu.tw/%7E07170206/0314-2.html?utm_source=%E8%87%AA%E5%AE%B6%E5%AE%98%E7%B6%B2&amp;utm_medium=%E6%A9%AB%E5%B9%85%E5%BB%A3%E5%91%8Abanner&amp;utm_campaign=%E4%BF%83%E9%8A%B7%E5%84%AA%E6%83%A0&amp;utm_content=for%E6%98%A5%E5%AD%A3%E5%B0%88%E5%B1%AC"><img
+        src="abc.jpg"
+        alt=""
+        id="001"
+        width="498"
+        height="306"></a><br>
+    <script>
+var delay = function (elem, callback) {
+var timeout = null;
+elem.onmouseover = function() {
+// Set timeout to be a timer which will invoke callback after 1s
+timeout = setTimeout(callback, 2000);
+};
+elem.onmouseout = function() {
+// Clear any timers set to timeout
+clearTimeout(timeout);
+}
+};
+
+delay(document.getElementById('001'), function() {ga('send','event','年終促銷','滑鼠游標指向','for 秋季專屬','576')});
+
+</script> <div id="fb-root"></div>
+    <script async="" defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+    <div class="fb-like" data-href="http://myweb.scu.edu.tw/~07170206/07170206.html"
+      data-width="200"
+      data-layout="standard"
+      data-action="like"
+      data-size="large"
+      data-share="true"></div>
+    <script>
+　	window.fbAsyncInit = function() {
+　	FB.Event.subscribe('edge.create', function(targetUrl) {
+　	ga('send', 'social', 'facebook臉書', 'like按讚', '促銷優惠');
+　	});
+　	};
+　	</script> 
+    
+    
+    
+<div id="player"></div>
+
+<script>
+
+window.onbeforeunload = sendVideoWatchedTime;
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+function onYouTubeIframeAPIReady() {
+player = new YT.Player('player', {
+height: '150',   //此處可修改影片高度
+width: '200',   //此處可修改影片寬度
+videoId: 'mPE8GqTg4NM',  //記得將此處修改為自己的影片ID
+events: {
+'onStateChange': onPlayerStateChange }});}
+
+　
+
+//此處為影片播放行為捕捉的程式碼
+
+function onPlayerStateChange(event) {    
+if (event.data == YT.PlayerState.PLAYING) {
+console.log('play');
+ga('send', 'event', '阿滴VS韋禮安誰的英文比較好? 輸的要流落街頭!?', '撥放play');
+}
+
+
+//此處為影片暫停行為捕捉的程式碼
+
+if (event.data == YT.PlayerState.PAUSED) {  
+console.log('paused, total: ' + player.getCurrentTime());
+ga('send', 'event', '阿滴VS韋禮安誰的英文比較好? 輸的要流落街頭!?', '暫停pause', '於幾秒處按下暫停鍵: ' + Math.round(player.getCurrentTime()));
+}
+
+//此處為影片收視完畢行為捕捉的程式碼
+
+if (event.data == YT.PlayerState.ENDED) {
+console.log('video ended');
+ga('send', 'event', '阿滴VS韋禮安誰的英文比較好? 輸的要流落街頭!?', '收視完畢complete')
+}}
+
+　
+
+//此處為影片沒看完跳離頁面行為捕捉的程式碼
+
+function sendVideoWatchedTime() {    
+console.log('leaving... watched: ' + player.getCurrentTime() + 'seconds');
+ga('send', 'event', '阿滴VS韋禮安誰的英文比較好? 輸的要流落街頭!? ', '沒看完跳離頁面', '於幾秒處關閉瀏覽器: ' + Math.round(player.getCurrentTime()));
+}
+</script>
+　
+  </body>
+</html>
